@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mcnz</groupId>
+    <groupId>com.uglyeagle</groupId>
     <artifactId>java-wasm-bridge-teavm-one</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
@@ -57,7 +57,7 @@
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.mcnz.wasm.ComplexLogic</mainClass>
+                            <mainClass>uglyeagle.ComplexLogic</mainClass>
                             <targetDirectory>${project.build.directory}/webapp/wasm</targetDirectory>
                             <targetFileName>complexlogic.wasm</targetFileName>
                             <targetType>WEBASSEMBLY</targetType>

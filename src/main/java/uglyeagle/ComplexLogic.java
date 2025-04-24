@@ -1,4 +1,4 @@
-package com.mcnz.wasm;
+package uglyeagle;
 
 import org.teavm.interop.Export;
 import org.teavm.interop.Import;
